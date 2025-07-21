@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="https://github.com/" />
+  <remote name="yocto"  fetch="git://git.yoctoproject.org/" />
+  <remote name="oe"     fetch="git://git.openembedded.org/" />
+  <remote name="qt"     fetch="git://code.qt.io/yocto/" />
+
+  <default revision="scarthgap" remote="yocto" sync-j="4" />
+
+  <project name="poky"                      path="poky"               revision="scarthgap" remote="yocto" />
+  <project name="meta-raspberrypi"          path="meta-raspberrypi"   revision="scarthgap" remote="yocto" />
+  <project name="meta-openembedded"         path="meta-openembedded"  revision="scarthgap" remote="oe" />
+  <project name="rpi-bakers/meta-custom"    path="meta-custom"        revision="scarthgap" remote="github" />
+  <project name="DynamicDevices/meta-mono"  path="meta-mono"          revision="scarthgap" remote="github" />
+  <project name="rpi-bakers/meta-pironman5" path="meta-pironman5"     revision="scarthgap" remote="github" />
+  <project name="OSSystems/meta-browser"    path="meta-browser"       revision="scarthgap" remote="github" />
+  <project name="meta-lts-mixins"           path="meta-lts-mixins"    revision="scarthgap/rust" remote="yocto" />
+  <project name="meta-qt6"                  path="meta-qt6"           revision="dev" remote="qt" />
+  <project name="kraj/meta-clang"                path="meta-clang"         revision="scarthgap-clang20" remote="github" />
+</manifest>
