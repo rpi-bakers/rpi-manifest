@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="github" fetch="https://github.com/" />
-  <remote name="yocto"  fetch="https://git.yoctoproject.org/" />
-  <remote name="oe"     fetch="https://git.openembedded.org/" />
-  <remote name="qt"     fetch="https://code.qt.io/yocto/" />
+  <remote name="yocto"  fetch="git://git.yoctoproject.org/" />
+  <remote name="oe"     fetch="git://git.openembedded.org/" />
+  <remote name="qt"     fetch="git://code.qt.io/yocto/" />
 
   <default revision="scarthgap" remote="yocto" sync-j="4" />
 
@@ -16,6 +16,6 @@
   <project name="OSSystems/meta-browser"        path="meta-browser"         revision="168d284276730e7109426075a1c53ab2fc677639" remote="github" />
   <project name="lucimber/meta-openjdk-temurin" path="meta-openjdk-temurin" revision="5804d9a8b33c40b7a6c6ecae9fc8799b8df61108" remote="github" />
   <project name="meta-qt6"                      path="meta-qt6"             revision="614b4f88a50f09228b1151d326654163ad880cbc" remote="qt" />
-  <project name="rpi-bakers/meta-custom"        path="meta-custom"          revision="263b11e2f9212e1345036ab5609d17695547af31" remote="github" />
-  <project name="rpi-bakers/meta-pironman5"     path="meta-pironman5"       revision="54fef03eb324205b9a8a8e3565e06ddf28376419" remote="github" />
+  <project name="rpi-bakers/meta-custom"        path="meta-custom"          revision="scarthgap" remote="github" />
+  <project name="rpi-bakers/meta-pironman5"     path="meta-pironman5"       revision="scarthgap" remote="github" />
 </manifest>
