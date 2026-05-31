@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="https://github.com/" />
+  <remote name="yocto"  fetch="https://git.yoctoproject.org/" />
+  <remote name="oe"     fetch="https://git.openembedded.org/" />
+  <remote name="qt"     fetch="https://code.qt.io/yocto/" />
+
+  <default revision="whinlatter" remote="yocto" sync-j="4" />
+
+  <project name="poky"                          path="poky"                 revision="7d50718f90c51fb7f650c9db59b28c6e0194e5d2" remote="yocto" />
+  <project name="meta-raspberrypi"              path="meta-raspberrypi"     revision="469e232c77d74cb030fe8a9af4ffe9127214a29b" remote="yocto" />
+  <project name="meta-openembedded"             path="meta-openembedded"    revision="f52f32952cb9717949f8bc3d3ccf6c4c5a59521f" remote="oe" />
+  <project name="DynamicDevices/meta-mono"      path="meta-mono"            revision="ff62223e3791ac03cfbf0f004faac83cf4ce21ce" remote="github" />
+  <project name="kraj/meta-clang"               path="meta-clang"           revision="cf20f8bd1366d41094c945597b95dd746e87b871" remote="github" />
+  <project name="OSSystems/meta-browser"        path="meta-browser"         revision="5c7924a29d5454ebd0b454927a61d3426f49cac9" remote="github" />
+  <project name="lucimber/meta-openjdk-temurin" path="meta-openjdk-temurin" revision="5804d9a8b33c40b7a6c6ecae9fc8799b8df61108" remote="github" />
+  <project name="hailo-ai/meta-hailo"           path="meta-hailo"           revision="4d27e8752e8226c6e39fa3f5c57ceb3bc146a055" remote="github" />
+  <project name="meta-qt6"                      path="meta-qt6"             revision="614b4f88a50f09228b1151d326654163ad880cbc" remote="qt" />
+  <project name="rpi-bakers/meta-custom"        path="meta-custom"          revision="ef751eba56910b07c31622255327599d4c3155bf" remote="github" />
+  <project name="rpi-bakers/meta-pironman5"     path="meta-pironman5"       revision="838407d23c44e7e3d9185ff6ebf018dd7b8721a9" remote="github" />
+</manifest>
