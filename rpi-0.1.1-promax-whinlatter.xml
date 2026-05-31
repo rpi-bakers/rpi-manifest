@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="https://github.com/" />
+  <remote name="yp"     fetch="https://git.yoctoproject.org/" />
+  <remote name="oe"     fetch="https://git.openembedded.org/" />
+  <remote name="qt"     fetch="https://code.qt.io/yocto/" />
+
+  <default revision="whinlatter" remote="yp" sync-j="4" />
+
+  <project name="bitbake"           remote="oe" path="bitbake"            revision="ca573f381aba474ed54cea5e0af4da7fc88cf799" upstream="master" />
+  <project name="openembedded-core" remote="oe" path="openembedded-core"  revision="8751ec83421192fc0f8495fb95798f9eb7be77a0" upstream="whinlatter" />
+  <project name="meta-openembedded" remote="oe" path="meta-openembedded"  revision="f52f32952cb9717949f8bc3d3ccf6c4c5a59521f" upstream="whinlatter" />
+
+  <project name="meta-yocto"        remote="yp" path="meta-yocto"         revision="3f2e6b6fadfa542f0fe3738375a2f9fcbd4c1f6e" upstream="whinlatter" />
+  <project name="meta-raspberrypi"  remote="yp" path="meta-raspberrypi"   revision="469e232c77d74cb030fe8a9af4ffe9127214a29b" upstream="whinlatter" />
+ 
+  <project name="DynamicDevices/meta-mono"      remote="github" path="meta-mono"            revision="ff62223e3791ac03cfbf0f004faac83cf4ce21ce" />
+
+  <project name="kraj/meta-clang"               remote="github" path="meta-clang"           revision="cf20f8bd1366d41094c945597b95dd746e87b871" upstream="whinlatter" />
+  <project name="OSSystems/meta-browser"        remote="github" path="meta-browser"         revision="8d2f89281f950053de431ff68e1d2eaf2764b4c4" upstream="whinlatter" />
+  <project name="lucimber/meta-openjdk-temurin" remote="github" path="meta-openjdk-temurin" revision="8237818761c77132486ec40f2a3026dfac059fd2" upstream="main" />
+  <project name="zboszor/meta-hailo"            remote="github" path="meta-hailo"           revision="b2d157333e3b6e0980b67b1d410df69a0732bf08" upstream="hailo8-whinlatter" />
+  <project name="meta-qt6"                      remote="qt"     path="meta-qt6"             revision="440e034c6252f0c966087e350ace116d8ced721f" upstream="dev" />
+ 
+  <project name="rpi-bakers/meta-custom"        remote="github" path="meta-custom"          revision="ef751eba56910b07c31622255327599d4c3155bf" />
+  <project name="rpi-bakers/meta-pironman5"     remote="github" path="meta-pironman5"       revision="838407d23c44e7e3d9185ff6ebf018dd7b8721a9" />
+</manifest>
