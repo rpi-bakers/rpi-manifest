@@ -15,7 +15,7 @@
   <project name="kraj/meta-clang"               path="meta-clang"           revision="3d5566935f4466d027243fc9efe34e25c934a03a" remote="github" />
   <project name="OSSystems/meta-browser"        path="meta-browser"         revision="168d284276730e7109426075a1c53ab2fc677639" remote="github" />
   <project name="lucimber/meta-openjdk-temurin" path="meta-openjdk-temurin" revision="5804d9a8b33c40b7a6c6ecae9fc8799b8df61108" remote="github" />
-  <project name="hailo-ai/meta-hailo"           path="meta-hailo"           revision="e9961289e8dd93960ba16bf70f59e94e42d6ab35" remote="github" />
+  <project name="hailo-ai/meta-hailo"           path="meta-hailo"           revision="8887744ca05a0c2f76676e45814c65a75e47719c" remote="github" />
   <project name="meta-qt6"                      path="meta-qt6"             revision="614b4f88a50f09228b1151d326654163ad880cbc" remote="qt" />
   <project name="rpi-bakers/meta-custom"        path="meta-custom"          revision="scarthgap" remote="github" />
   <project name="rpi-bakers/meta-pironman5"     path="meta-pironman5"       revision="scarthgap" remote="github" />
